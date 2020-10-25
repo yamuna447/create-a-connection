@@ -1,0 +1,12 @@
+                                       
+<?php
+
+$connection=mysqli_connect("localhost","root","Nanna143@","mysql") or die("could not connect>
+if($connection){
+echo "connection is sucessful!";
+}
+mysql_close($connection);
+?>
+
+
+
